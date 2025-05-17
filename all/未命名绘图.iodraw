@@ -7,9 +7,6 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-211" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="546" y="920" width="482" height="831" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-212" value="任务加载阶段检测" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="797" width="506" height="955" as="geometry" />
-        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-213" value="启动QGC地面控制站漏洞扫描" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="449" y="465" width="187" height="49" as="geometry" />
         </mxCell>
@@ -68,10 +65,7 @@
           <mxGeometry x="823" y="1678" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-233" value="更改相关漏洞成员变量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="449" y="1802" width="188" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-234" value="进入下一层次扫描" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="465" y="1900" width="156" height="49" as="geometry" />
+          <mxGeometry x="189" y="1839" width="188" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-235" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-213" target="_muZnpwU0aGzFogFHaSk-215">
           <mxGeometry relative="1" as="geometry">
@@ -176,16 +170,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-254" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-224" target="_muZnpwU0aGzFogFHaSk-233">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-254" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-224" target="_muZnpwU0aGzFogFHaSk-233">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="166" y="1777" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-258" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-233" target="_muZnpwU0aGzFogFHaSk-234">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
