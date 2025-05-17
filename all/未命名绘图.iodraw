@@ -20,13 +20,13 @@
           <mxGeometry x="699" y="945" width="183" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-218" value="MAVProxy捕获到原始任务文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="149" y="871" width="256" height="49" as="geometry" />
+          <mxGeometry x="149" y="945" width="256" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-219" value="篡改任务文件内容" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="183" y="983" width="188" height="49" as="geometry" />
+          <mxGeometry x="183" y="1044" width="188" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-220" value="发送获取飞行任务消息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="167" y="1115" width="220" height="49" as="geometry" />
+          <mxGeometry x="167" y="1143" width="220" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-221" value="接收篡改后任务文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="175" y="1241" width="204" height="49" as="geometry" />
@@ -89,6 +89,12 @@
             <Array as="points">
               <mxPoint x="791" y="760" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-239" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" target="_muZnpwU0aGzFogFHaSk-218">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="277.0000000000002" y="871" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-240" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-218" target="_muZnpwU0aGzFogFHaSk-219">
