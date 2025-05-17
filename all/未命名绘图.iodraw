@@ -1,9 +1,108 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="7Fb7rdqO6yxOwGVaBPcN">
-    <mxGraphModel dx="972" dy="681" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1666" dy="1167" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_muZnpwU0aGzFogFHaSk-38" value="结果报告生成子系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="294" y="543" width="233" height="484" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-39" value="漏洞检测引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="791" height="473" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-40" value="MAVPproxy" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="342" y="45" width="138" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-41" value="漏洞检测引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="333" y="184" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-42" value="无人机本体安全评估" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="283" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-43" value="地面站QGC安全评估" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="309" y="283" width="203" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-44" value="控制系统PX4安全评估" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="562" y="283" width="214" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-45" value="JSON文件" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="369" y="404" width="83" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-46" value="Vue框架" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="357" y="568" width="107" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-47" value="HTML报告生成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="329" y="747" width="163" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-48" value="用户交互界面" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;" vertex="1" parent="1">
+          <mxGeometry x="347" y="846" width="127" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-49" value="浏览器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="357" y="952" width="108" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-50" value="监听&amp;解析MAVLink协议" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-40" target="_muZnpwU0aGzFogFHaSk-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-41" target="_muZnpwU0aGzFogFHaSk-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-52" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-41" target="_muZnpwU0aGzFogFHaSk-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.8;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-41" target="_muZnpwU0aGzFogFHaSk-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="669" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-54" value="漏洞数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.32;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-42" target="_muZnpwU0aGzFogFHaSk-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-55" value="漏洞数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-43" target="_muZnpwU0aGzFogFHaSk-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-56" value="漏洞数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.32;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-44" target="_muZnpwU0aGzFogFHaSk-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="669" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-45" target="_muZnpwU0aGzFogFHaSk-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-58" value="数据可视化" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-46" target="_muZnpwU0aGzFogFHaSk-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-59" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-47" target="_muZnpwU0aGzFogFHaSk-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-60" value="查看/分析/记录" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-48" target="_muZnpwU0aGzFogFHaSk-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
