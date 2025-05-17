@@ -67,7 +67,7 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-232" value="记录合规结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="823" y="1678" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-233" value="生成综合检测报告" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-233" value="更改相关漏洞成员变量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="449" y="1802" width="188" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-234" value="进入下一层次扫描" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
