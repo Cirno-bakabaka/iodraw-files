@@ -49,6 +49,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-35" value="切换时间线视图" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-27" target="_muZnpwU0aGzFogFHaSk-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="306" y="421" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
