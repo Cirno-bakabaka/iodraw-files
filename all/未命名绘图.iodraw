@@ -16,6 +16,9 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-215" value="执行漏洞检测" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="470" y="579" width="145" height="145" as="geometry" />
         </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-216" value="执行飞行任务修改检测" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="183" y="822" width="188" height="49" as="geometry" />
+        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-217" value="执行GPS欺骗检测" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="699" y="945" width="183" height="49" as="geometry" />
         </mxCell>
@@ -76,12 +79,11 @@
             <mxPoint x="542" y="481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-237" value="任务加载阶段" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-215">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-237" value="任务加载阶段" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-215" target="_muZnpwU0aGzFogFHaSk-216">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="277" y="760" />
             </Array>
-            <mxPoint x="277.0000000000002" y="822" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-238" value="飞行阶段" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.72;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-215" target="_muZnpwU0aGzFogFHaSk-217">
@@ -91,10 +93,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-239" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" target="_muZnpwU0aGzFogFHaSk-218">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-239" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-216" target="_muZnpwU0aGzFogFHaSk-218">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="277.0000000000002" y="871" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-240" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-218" target="_muZnpwU0aGzFogFHaSk-219">
