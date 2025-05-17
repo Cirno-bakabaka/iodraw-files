@@ -64,7 +64,7 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-279" value="生成安全评估报告相关JSON文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="455" y="1812" width="188" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-280" value="终止扫描进程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-280" value="结束扫描流程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="471" y="1910" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-281" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-261" target="_muZnpwU0aGzFogFHaSk-263">
