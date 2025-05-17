@@ -22,7 +22,7 @@
         <mxCell id="HZyqP8lNtJwYMgKbey4X-1007" value="发送数据任务" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontSize=16;fontColor=none;align=center;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="324" y="584" width="153" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="HZyqP8lNtJwYMgKbey4X-1020" value="" style="endArrow=classic;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=3;fontSize=16;fontColor=none;align=center;exitX=0.527;exitY=1.022;exitPerimeter=0;fontStyle=0" parent="1" source="HZyqP8lNtJwYMgKbey4X-999" edge="1">
+        <mxCell id="HZyqP8lNtJwYMgKbey4X-1020" value="" style="endArrow=classic;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=3;fontSize=16;fontColor=none;align=center;exitX=0.527;exitY=1.022;exitPerimeter=0;fontStyle=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HZyqP8lNtJwYMgKbey4X-999" edge="1" target="1-ltcLlXkgpOut_ha9du-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="491" y="136" as="sourcePoint" />
             <mxPoint x="402" y="122" as="targetPoint" />
@@ -91,7 +91,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1-ltcLlXkgpOut_ha9du-1" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="583" y="83" width="120" height="60" as="geometry" />
+          <mxGeometry x="340.5" y="117" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
