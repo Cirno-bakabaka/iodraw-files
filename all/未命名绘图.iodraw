@@ -167,24 +167,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-299" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.14;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-272" target="_muZnpwU0aGzFogFHaSk-279">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="411" y="1787" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-300" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.88;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-277" target="_muZnpwU0aGzFogFHaSk-279">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="694" y="1787" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-301" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.22;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-278" target="_muZnpwU0aGzFogFHaSk-279">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="900" y="1787" />
             </Array>
           </mxGeometry>
         </mxCell>
