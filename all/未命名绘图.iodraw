@@ -64,6 +64,9 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-279" value="更改相关漏洞成员变量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="455" y="1812" width="188" height="49" as="geometry" />
         </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-304" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-280" target="_muZnpwU0aGzFogFHaSk-303">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-280" value="生成安全评估报告相关JSON文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="421.5" y="1911" width="255" height="49" as="geometry" />
         </mxCell>
@@ -179,6 +182,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-303" value="结束扫描进程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="421.5" y="2040" width="255" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
