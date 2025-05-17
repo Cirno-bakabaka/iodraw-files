@@ -1,24 +1,59 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="7Fb7rdqO6yxOwGVaBPcN">
-    <mxGraphModel dx="1943" dy="1362" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1372" dy="961" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_muZnpwU0aGzFogFHaSk-1" value="核心组件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="217" width="1632" height="197" as="geometry" />
+        <mxCell id="_muZnpwU0aGzFogFHaSk-27" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="506" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-8" value="TotalVulnerabilityCounter" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="55" y="341" width="244" height="49" as="geometry" />
+        <mxCell id="_muZnpwU0aGzFogFHaSk-28" value="VulnerabilityList" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="506" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-14" value="EvolutionTimeline" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1429" y="341" width="189" height="49" as="geometry" />
+        <mxCell id="_muZnpwU0aGzFogFHaSk-29" value="VulnerabilityDetail" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="158" height="506" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.92;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" target="_muZnpwU0aGzFogFHaSk-14">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-30" value="点击漏洞卡片" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-27" target="_muZnpwU0aGzFogFHaSk-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1523" y="316" />
+              <mxPoint x="204" y="127" />
             </Array>
-            <mxPoint x="1387" y="287.0799999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-31" value="传递漏洞ID" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-28" target="_muZnpwU0aGzFogFHaSk-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-32" value="加载漏洞详情数据" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-29" target="_muZnpwU0aGzFogFHaSk-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="235" />
+              <mxPoint x="550" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-33" value="展开详情面板" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-29" target="_muZnpwU0aGzFogFHaSk-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="309" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-34" value="查看修复建议" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-27" target="_muZnpwU0aGzFogFHaSk-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="306" y="369" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_muZnpwU0aGzFogFHaSk-35" value="切换时间线视图" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-27" target="_muZnpwU0aGzFogFHaSk-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="306" y="421" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
