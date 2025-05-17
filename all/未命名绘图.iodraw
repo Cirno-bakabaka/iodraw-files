@@ -13,9 +13,6 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-213" value="启动QGC漏洞扫描" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="448" y="382" width="187" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-214" value="连接地面站系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="456" y="481" width="172" height="49" as="geometry" />
-        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-215" value="执行漏洞检测" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="470" y="579" width="145" height="145" as="geometry" />
         </mxCell>
@@ -76,14 +73,10 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-234" value="结束扫描进程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="465" y="1900" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-235" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-213" target="_muZnpwU0aGzFogFHaSk-214">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-235" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-213" target="_muZnpwU0aGzFogFHaSk-215">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-236" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-214" target="_muZnpwU0aGzFogFHaSk-215">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="542" y="481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-237" value="任务加载阶段" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-215" target="_muZnpwU0aGzFogFHaSk-216">
