@@ -112,13 +112,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-197" value="传感器完整性检测" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.72;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-186" target="_muZnpwU0aGzFogFHaSk-187">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="797" y="398" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-198" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-187" target="_muZnpwU0aGzFogFHaSk-188">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
