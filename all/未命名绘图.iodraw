@@ -34,7 +34,7 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-269" value="版本低于阈值?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="213" y="1241" width="151" height="151" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-270" value="加载对应漏洞测试模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-270" value="加载对应漏洞测试逻辑" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="56" y="1516" width="220" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-271" value="执行针对性漏洞测试" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
