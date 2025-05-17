@@ -10,7 +10,7 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-212" value="任务加载阶段检测" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="20" y="797" width="506" height="955" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-213" value="启动QGC漏洞扫描" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-213" value="启动QGC地面控制站漏洞扫描" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="449" y="465" width="187" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-215" value="执行漏洞检测" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
