@@ -64,9 +64,6 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-159" value="更改相关漏洞成员变量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="188.5" y="1219" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-160" value="进入下一层次扫描" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="453" y="1301" width="124" height="49" as="geometry" />
-        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-161" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-141" target="_muZnpwU0aGzFogFHaSk-143">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -173,16 +170,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-179" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.29;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-150" target="_muZnpwU0aGzFogFHaSk-159">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-179" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-150" target="_muZnpwU0aGzFogFHaSk-159">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="156" y="1176" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-183" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-159" target="_muZnpwU0aGzFogFHaSk-160">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
