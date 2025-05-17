@@ -1,82 +1,9 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="7Fb7rdqO6yxOwGVaBPcN">
-    <mxGraphModel dx="972" dy="161" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1372" dy="961" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_muZnpwU0aGzFogFHaSk-217" value="执行GPS欺骗检测" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="699" y="945" width="183" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-226" value="构造伪造GPS位置信息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="683" y="1044" width="215" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-227" value="注入MAVLink通信流" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="692" y="1143" width="198" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-228" value="发送获取GPS消息" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="699" y="1241" width="183" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-229" value="验证位置数据一致性" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="689" y="1340" width="204" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-230" value="位置被篡改?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="723" y="1455" width="135" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-231" value="标记GPS欺骗漏洞" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="589" y="1678" width="183" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-232" value="记录合规结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="823" y="1678" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-233" value="更改相关漏洞成员变量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="621" y="1856" width="188" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-247" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-217" target="_muZnpwU0aGzFogFHaSk-226">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-248" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-226" target="_muZnpwU0aGzFogFHaSk-227">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-249" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-227" target="_muZnpwU0aGzFogFHaSk-228">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-250" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-228" target="_muZnpwU0aGzFogFHaSk-229">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-251" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-229" target="_muZnpwU0aGzFogFHaSk-230">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-252" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-230" target="_muZnpwU0aGzFogFHaSk-231">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="681" y="1642" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-253" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-230" target="_muZnpwU0aGzFogFHaSk-232">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="901" y="1642" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-256" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-231" target="_muZnpwU0aGzFogFHaSk-233">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="681" y="1777" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
