@@ -16,7 +16,7 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-214" value="连接地面站系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="456" y="481" width="172" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-215" value="检测阶段选择" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-215" value="执行漏洞检测" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="470" y="579" width="145" height="145" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-216" value="执行任务文件检测" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
