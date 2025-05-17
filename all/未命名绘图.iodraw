@@ -184,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-303" value="结束扫描进程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="421.5" y="2040" width="255" height="49" as="geometry" />
+          <mxGeometry x="462" y="2010" width="173" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
