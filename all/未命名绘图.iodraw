@@ -22,7 +22,7 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-217" value="执行GPS欺骗检测" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="699" y="945" width="183" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-218" value="MAVProxy捕获原始任务文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-218" value="MAVProxy捕获到原始任务文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="149" y="945" width="256" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-219" value="篡改任务文件内容" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
