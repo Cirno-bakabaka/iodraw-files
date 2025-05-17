@@ -7,9 +7,6 @@
         <mxCell id="HZyqP8lNtJwYMgKbey4X-999" value="start" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontSize=16;fontColor=none;align=center;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="334" y="46" width="129" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="HZyqP8lNtJwYMgKbey4X-1002" value="操作系统初始化" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontSize=16;fontColor=none;align=center;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="324" y="123" width="153" height="48" as="geometry" />
-        </mxCell>
         <mxCell id="HZyqP8lNtJwYMgKbey4X-1003" value="创建任务2个" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontSize=16;fontColor=none;align=center;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="324" y="203" width="153" height="48" as="geometry" />
         </mxCell>
@@ -92,6 +89,9 @@
               <mxPoint x="295" y="585" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1-ltcLlXkgpOut_ha9du-1" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="583" y="83" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
