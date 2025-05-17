@@ -1,20 +1,11 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="7Fb7rdqO6yxOwGVaBPcN">
-    <mxGraphModel dx="972" dy="961" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="972" dy="561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_muZnpwU0aGzFogFHaSk-159" value="更改漏洞相关成员变量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="610" y="1223" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-184" value="开始漏洞扫描" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="473" y="20" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-185" value="无人机系统连接" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="465" y="119" width="172" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-186" value="执行漏洞检测逻辑" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="479" y="217" width="145" height="145" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-187" value="启动攻击模拟" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="719" y="460" width="156" height="49" as="geometry" />
@@ -39,16 +30,6 @@
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-194" value="记录合规结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="874" y="1078" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-195" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-184" target="_muZnpwU0aGzFogFHaSk-185">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-196" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-185" target="_muZnpwU0aGzFogFHaSk-186">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-198" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-187" target="_muZnpwU0aGzFogFHaSk-188">
           <mxGeometry relative="1" as="geometry">
@@ -102,7 +83,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-206" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-193">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-206" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-193" target="_muZnpwU0aGzFogFHaSk-159">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="662" y="1176" />
