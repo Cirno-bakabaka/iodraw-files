@@ -35,13 +35,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-33" value="展开详情面板" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-29" target="_muZnpwU0aGzFogFHaSk-27">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="309" y="317" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-34" value="查看修复建议" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-27" target="_muZnpwU0aGzFogFHaSk-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
