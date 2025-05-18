@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_muZnpwU0aGzFogFHaSk-259" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="567" y="920" width="461" height="841" as="geometry" />
-        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-260" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="20" y="797" width="527" height="965" as="geometry" />
         </mxCell>
@@ -18,9 +15,6 @@
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-264" value="执行系统版本验证" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="194" y="822" width="188" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-265" value="执行恶意指令注入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="703" y="945" width="188" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-266" value="发送MAVLink版本请求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="181" y="945" width="214" height="49" as="geometry" />
@@ -43,24 +37,6 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-272" value="记录系统合规状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="317" y="1688" width="188" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-273" value="构造MAVLink控制指令" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1044" width="214" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-274" value="注入通信链路" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="719" y="1143" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-275" value="监控飞控响应" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="719" y="1292" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-276" value="执行非法指令?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="722" y="1465" width="151" height="151" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-277" value="标记劫持漏洞" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="616" y="1688" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-278" value="记录合规状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="822" y="1688" width="156" height="49" as="geometry" />
-        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-279" value="更改相关漏洞成员变量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="235" y="1831" width="188" height="49" as="geometry" />
         </mxCell>
@@ -79,13 +55,6 @@
               <mxPoint x="288" y="760" />
             </Array>
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-284" value="无人机劫持检测" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.7;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-263" target="_muZnpwU0aGzFogFHaSk-265">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="797" y="760" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-285" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-264" target="_muZnpwU0aGzFogFHaSk-266">
@@ -127,51 +96,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-292" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-265" target="_muZnpwU0aGzFogFHaSk-273">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-293" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-273" target="_muZnpwU0aGzFogFHaSk-274">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-294" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-274" target="_muZnpwU0aGzFogFHaSk-275">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-295" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-275" target="_muZnpwU0aGzFogFHaSk-276">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-296" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-276" target="_muZnpwU0aGzFogFHaSk-277">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="694" y="1652" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-297" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-276" target="_muZnpwU0aGzFogFHaSk-278">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="900" y="1652" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-298" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-271" target="_muZnpwU0aGzFogFHaSk-279">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="165" y="1787" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-300" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-277" target="_muZnpwU0aGzFogFHaSk-279">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="694" y="1787" />
             </Array>
           </mxGeometry>
         </mxCell>
