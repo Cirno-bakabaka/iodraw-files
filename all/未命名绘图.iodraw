@@ -4,15 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_muZnpwU0aGzFogFHaSk-305" value="开始" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="163" y="20" width="92" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-306" value="定义vulnerabilities响应式数组" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="80" y="119" width="258" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-307" value="定义expanded状态对象" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="97" y="235" width="225" height="49" as="geometry" />
-        </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-308" value="计算分组grouped" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="118" y="334" width="182" height="49" as="geometry" />
         </mxCell>
@@ -49,19 +40,10 @@
         <mxCell id="_muZnpwU0aGzFogFHaSk-319" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="163" y="1659" width="92" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-320" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-305" target="_muZnpwU0aGzFogFHaSk-306">
+        <mxCell id="_muZnpwU0aGzFogFHaSk-322" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" target="_muZnpwU0aGzFogFHaSk-308">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-321" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-306" target="_muZnpwU0aGzFogFHaSk-307">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_muZnpwU0aGzFogFHaSk-322" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-307" target="_muZnpwU0aGzFogFHaSk-308">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="209.5" y="284" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_muZnpwU0aGzFogFHaSk-323" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="_muZnpwU0aGzFogFHaSk-308" target="_muZnpwU0aGzFogFHaSk-309">
